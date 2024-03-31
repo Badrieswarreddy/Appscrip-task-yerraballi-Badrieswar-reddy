@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Layout Page</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header h2{
+            text-align: center;
+        }
+        header nav{
+            justify-content: center;
+            text-align: center;
+        }
+        header nav a{
+            text-decoration: none;
+            padding: 1%;
+            margin: 0%;
+        }
+        .header{
+            text-align: center;
+            justify-content: center;
+        }
+        .filters {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+        section{
+            display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 20px;
+        }
+        .product {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			padding: 20px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+			flex-basis: 30%;
+			margin-bottom: 20px;
+		}
+        .product img{
+            float: left;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+			background-color:black;
+            color: white;
+        }
+        .signup{
+            display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+            padding: 10px;
+        }
+        .info{
+            display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+            padding: 10px;
+        }
+        .info nav a{
+            text-decoration: none;
+            color: white;
+        }
+        .info img{
+            background-color: black;
+        }
+        .copy{
+            text-align: center;
+        }
+    
+
+        
+            
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>LOGO</h2>
+        <nav>
+            <a href="#">SHOP</a>
+            <a href="#">SKILLS</a>
+            <a href="#">STORIES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT US</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="header">
+        <h1>DISCOVER OUR PRODUCTS</h1>
+        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Tempore dolorum exercitationem, 
+            repellendus sint alias assumenda.</P>
+            </div>
+        <hr>
+        <div class="filters">
+        <p>3425 ITEMS</p>
+        <select>
+            <option>RECOMMENDED</option>
+            <option>NEWEST FIRST</option> 
+            <option>POPULAR</option>
+            <option>PRICE:HIGH TO LOW</option>
+            <option>PRICE:LOW TO HIGH</option>
+        </select>
+        </div>
+        <hr>
+    </main>
+    <section>
+        <div class="product">
+            <img src="College Bag.jpeg" alt="img" >
+            <h2>COLLEGE BAG</h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+
+        <div class="product">
+            <img src="toy image.webp" alt="img">
+            <h2>SMALL TOY </h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+
+        <div class="product">
+            <img src="belt image.jpeg" alt="img">
+            <h2>BELT</h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+
+        <div class="product">
+            <img src="cap image.jpeg" alt="img">
+            <h2>CAP</h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+
+        <div class="product">
+            <img src="handbag image.jpeg" alt="img">
+            <h2>HAND BAG</h>
+                <p><a href="#">Sign in</a> or Create an account to see pricing</p>   
+        </div>
+
+        <div class="product">
+            <img src="headphone image.jpeg" alt="img">
+            <h2>HEAD PHONE</h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+
+        <div class="product">
+            <img src="camera image.jpeg" alt="img">
+            <h2>CAMERA</h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+
+        <div class="product">
+            <img src="shoe image.webp" alt="img">
+            <h2>SHOES</h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+
+        <div class="product">
+            <img src="watch.jpeg" alt="img">
+            <h2>WATCH</h2>
+            <p><a href="#">Sign in</a> or Create an account to see pricing</p>
+        </div>
+    </section>
+    <footer>
+        <div class="signup">
+        <div>
+            <h2>BE THE FIRST TO KNOW</h2>
+            <P>Lorem ipsum is simply dummy text of the printing and typesettring industry.This is simply dummy text</P>
+            <P>Sign up for updates from metta muse.</P>
+            <input type="text" placeholder="Enter your e-mail....">
+             <button>SUBSCRIBE</button>
+        </div>
+        <div>
+            <h2>CALL US</h2>
+            <P>+44 221 133 5360</P>
+            <p>customercare@mettamuse.com</p>
+            <h3>USD <img src="flag.jpg" height="15px" width="15px"></h3>
+            <p>Transactions will be completed in Euros and currency referennce is availbleon hover</p>
+        </div>
+    </div>
+        <hr>
+        <div class="info">
+        <div>
+            <h2>metta muse</h2>
+            <nav>
+                <a href="#">About Us</a><br>
+                <a href="#">Stories</a><br>
+                <a href="#">Artisans</a><br>
+                <a href="#">Bountiques</a><br>
+                <a href="#">Contact Us</a><br>
+                <a href="#">EU Compliances Docs</a><br>
+            </nav>
+        </div>
+
+        <div>
+            <h2>QUICK LINKS</h2>
+            <nav>
+                <a href="#">Orders & Shipping</a><br>
+                <a href="#">Join/Login as a Seller</a><br>
+                <a href="#">Payments & Pricing</a><br>
+                <a href="#">Return & Refund</a><br>
+                <a href="#">FAQs</a><br>
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Terms & Cinditions</a><br>
+            </nav>
+        </div>
+
+        <div>
+            <h2>FOLLOW US</h2>
+            <img src="instagram.png" height="30px" width="30px">
+            <img src="linkdin.png" height="30px" width="30px">
+        </div>
+
+        <div>
+            <h2>metta muse ACCEPTS</h2>
+            <img src="google pay icon.png">
+            <img src="mastercard icon.png">
+            <img src="paypall icon.png">
+            <img src="amex icon.png">
+            <img src="applepay icon.png">
+
+        </div>
+        </div>
+
+        <p class="copy">Copyright &copy; 2023 mettamuse.All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
